@@ -24,7 +24,6 @@ import java.util.Scanner;
             System.out.print("Enter a number: ");
             String input = scanner.nextLine();
 
-            // Check if input is a valid integer using regex
             if (input.matches("-?\\d+")) {
                 int number = Integer.parseInt(input);
 
